@@ -35,10 +35,10 @@ fun inicio2() {
     when (escolha) {
         1 -> cadastrarQuartos()
         2 -> CadastroHospedes()
-        3 -> Eventos()
-        4 -> arCondicionado()
+        3 -> "Eventos()"
+        4 -> "arCondicionado()"
         5 -> AbastecimentoDeAutomoveis()
-        6 -> relatoriosOperacionais()
+        6 -> "relatoriosOperacionais()"
         7 -> CadastroHospedesDataClass()
         8 -> sairDoHotel()
         else -> erro()
@@ -46,6 +46,7 @@ fun inicio2() {
 }
 
 fun cadastrarQuartos() {
+    println("Digite o valor da diária:")
 
 }
 
@@ -53,8 +54,8 @@ fun AbastecimentoDeAutomoveis() {
 
 }
 
-fun erro(){
-    println("Por favor, informe um número entre 1 e 4.")
+fun erro() {
+    println("Por favor, informe um número entre 1 e 8.")
     inicio()
 }
 

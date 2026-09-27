@@ -76,7 +76,3 @@ fun sairCadastroDeHospedes() {
 fun erroCadastroDeHospedes() {
     println("Por favor, informe um número entre 1 e 3.")
 }
-
-fun erroGeral() {
-    println("Erro! Tente novamente")
-}
