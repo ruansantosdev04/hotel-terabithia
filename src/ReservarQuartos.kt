@@ -22,5 +22,5 @@ fun ReservaQuartos() {
 
     var quarto = readln().toIntOrNull()
 
-    val quartos = mutableListOf<String>(quarto)
+    val quartos = mutableListOf<String>()
 }
